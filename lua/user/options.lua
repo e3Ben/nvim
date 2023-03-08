@@ -1,0 +1,10 @@
+vim.opt.number = true
+vim.opt.shiftwidth = 4
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.wrap = false
+vim.opt.tabstop = 4
+vim.opt.signcolumn = "yes"
+vim.opt.expandtab = true
+vim.g.mapleader = ','
+vim.g.maplocalleader = ','
