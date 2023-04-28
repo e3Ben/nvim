@@ -86,7 +86,7 @@ require('lspconfig')["omnisharp"].setup {
     -- DEPENDENCIES: mono, mono-msbuild, mono-msbuild-sdkresolver
     on_attach = on_attach,
     flags = lsp_flags,
-    cmd = { homeDir .. "/.config/nvim/lua/user/lsp/omnisharp/omnisharp-linux-x64/run", "--languageserver" , "--hostPID", tostring(pid) },
+    cmd = { homeDir .. "/.config/nvim/lua/user/lsp/omnisharp/output/omnisharp-linux-x64/run", "--languageserver" , "--hostPID", tostring(pid) },
     -- Enables support for reading code style, naming convention and analyzer
     -- settings from .editorconfig.
     enable_editorconfig_support = true,

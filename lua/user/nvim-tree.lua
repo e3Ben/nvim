@@ -5,7 +5,8 @@ if not isLoaded then
 end
 
 nvimTree.setup({
-    sort_by = "case_sensitive",
+    -- sort_by = "case_sensitive",
+    sort_by = "name",
     view = {
       adaptive_size = false,
       mappings = {
